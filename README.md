@@ -9,6 +9,12 @@
 
 ---
 
+## Youtube
+
+Link pro pitch: <https://youtu.be/quNKl5l2dng>
+
+---
+
 ## Tecnologias
 
 ### 1. Apritags
@@ -39,7 +45,7 @@ Basta rodar `python read_tag_file.py` no terminal
 
 ### Mais interessante
 
-1. Entre nesse site [https://chaitanyantr.github.io/apriltag.html]
+1. Entre nesse site <https://chaitanyantr.github.io/apriltag.html>
 2. Mude a familia para "tag16h5"
 3. Escolha o Id da sua tag
 4. Tire um print e coloque em algum arquivo doc (Você pode enxer o arquivo com tags variadas)
