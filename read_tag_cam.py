@@ -27,7 +27,14 @@ while True:
 
         corners = r.corners
         pts = np.array(corners, dtype=np.int32).reshape((-1, 1, 2))
-        cv.polylines(frame, [pts], isClosed=True, color=(0, 255, 0), thickness=2)
+
+        cv.line(frame, pts[0], pts[1], (0, 255, 0), 2)
+        cv.line(frame, pts[1], pts[2], (0, 0, 255), 2)
+        cv.line(frame, pts[2], pts[3], (255, 0, 0), 2)
+        cv.line(frame, pts[3], pts[0], (255, 0, 0), 2)
+
+        # cv.polylines(frame, [pts], isClosed=True, color=(0, 255, 0), thickness=2)
+        
         cX, cY = pts[0][0]
         cv.putText(
             frame,
